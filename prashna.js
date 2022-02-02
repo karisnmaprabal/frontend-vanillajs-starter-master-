@@ -3,7 +3,7 @@
 
 
 
-const myArray = ['ram', 'shyam', 'hari'];
+const myArray = ['ram', 'shyam', 'hari', "Krishna"];
 
 // this logs out the array items starting from the first index
 const callFromFirst = (myArray, callback) => {
