@@ -61,7 +61,7 @@ const callFromFirst = (myArray, callback) => {*/
 
 
 
-console.log("This Is My First website")
+/*console.log("This Is My First website")
 
 const name = ["sita", "rita", "meena", "preeta", "meeta"]
 const marks = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -70,3 +70,18 @@ const arr = new Array(1, 2, 3, 4, 5, 'preeta');
 console.log("arr");
 console.log(name)
 
+const myObject = {
+    string: 'Galactic Rainbows',
+    color: 'HotPink',
+    sociopaths: ["Hitler", "Stalin", "Gates"]
+}*/
+
+
+const myObject = {};    // this line is the declaration
+// it is equivalent to:
+const myObject2 = new Object();
+
+myObject.string = "Galactic Rainbows";
+myObject.color = "HotPink";
+myObject.sociopaths = ["Hitler", "Stalin", "Gates"];
+console.log("new Object")
