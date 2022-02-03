@@ -1,25 +1,16 @@
 
+/*console.log("     ")
+for (let i = 0; i < myArray.length; i++) {
 
-
-
-
-const myArray = ['ram', 'shyam', 'hari', "Krishna"];
-
-// this logs out the array items starting from the first index
-const callFromFirst = (myArray, callback) => {
-
-    console.log("     ")
-    for (let i = 0; i < myArray.length; i++) {
-
-        console.log(`Index: ${i}, Value in UPPERCASE/CAPITAL: ${myArray[i].toUpperCase()}`);
-        // console.log('New Index:' + i, 'New Value' + myArray[i]);
-    }
-
-    console.log("     ")
-
-    // I am done with my work, now time for callback 
-    callback;
+    console.log(`Index: ${i}, Value in UPPERCASE/CAPITAL: ${myArray[i].toUpperCase()}`);
+    // console.log('New Index:' + i, 'New Value' + myArray[i]);
 }
+
+console.log("     ")
+
+// I am done with my work, now time for callback 
+callback;
+
 
 // this logs out the array items starting from the last index
 const callFromLast = (myArray) => {
@@ -54,6 +45,28 @@ for further reference check it online !
 -----------------------------------------------------------------------
  everything has to be properly commented 
 
-*/
 
+
+
+
+const myArray = ['ram', 'shyam', 'hari', "Krishna"];
+
+// this logs out the array items starting from the first index
+const callFromFirst = (myArray, callback) => {*/
+
+
+
+
+
+
+
+
+console.log("This Is My First website")
+
+const name = ["sita", "rita", "meena", "preeta", "meeta"]
+const marks = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+const mixed = ["string", 1, 2, 3, [1, 2, 3]];
+const arr = new Array(1, 2, 3, 4, 5, 'preeta');
+console.log("arr");
+console.log(name)
 
